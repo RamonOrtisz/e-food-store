@@ -10,7 +10,7 @@ export const FoodContainer = styled.div`
 
   > img {
     width: 100%;
-    height: 240px;
+    heigaht: 240px;
     max-height: 100%;
   }
 `

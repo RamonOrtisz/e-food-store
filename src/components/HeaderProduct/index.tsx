@@ -7,10 +7,10 @@ const HeaderProduct = () => {
     <Container>
       <Content>
         <TitleFood>Restaurantes</TitleFood>
-        <Logo href="">
+        <Logo href="/">
           <img src={logo} alt="" />
         </Logo>
-        <a href="">o produtos no carrinho</a>
+        <a href="">0 produtos </a>
       </Content>
     </Container>
   )

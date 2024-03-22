@@ -31,13 +31,13 @@ const FoodComponent = () => {
             ducimus dolorum, voluptas inventore nobis dolorem. Exercitationem
             nulla est quod ea ipsam.
           </p>
-          <LinkButton>saiba mais</LinkButton>
+          <LinkButton href={'/products/:id'}>saiba mais</LinkButton>
         </InfosContainer>
       </FoodContainer>
 
       <FoodContainer>
         <img src={image} alt="" />
-        <TagContent>Italiana</TagContent>
+        <TagContent>italiana</TagContent>
         <InfosContainer>
           <TitleContent>
             <h3>Nome</h3>
@@ -52,13 +52,13 @@ const FoodComponent = () => {
             ducimus dolorum, voluptas inventore nobis dolorem. Exercitationem
             nulla est quod ea ipsam.
           </p>
-          <LinkButton>saiba mais</LinkButton>
+          <LinkButton href={'/products/:id'}>saiba mais</LinkButton>
         </InfosContainer>
       </FoodContainer>
 
       <FoodContainer>
         <img src={image} alt="" />
-        <TagContent>Italiana</TagContent>
+        <TagContent>italiana</TagContent>
         <InfosContainer>
           <TitleContent>
             <h3>Nome</h3>
@@ -73,13 +73,13 @@ const FoodComponent = () => {
             ducimus dolorum, voluptas inventore nobis dolorem. Exercitationem
             nulla est quod ea ipsam.
           </p>
-          <LinkButton>saiba mais</LinkButton>
+          <LinkButton href={'/products/:id'}>saiba mais</LinkButton>
         </InfosContainer>
       </FoodContainer>
 
       <FoodContainer>
         <img src={image} alt="" />
-        <TagContent>Italiana</TagContent>
+        <TagContent>italiana</TagContent>
         <InfosContainer>
           <TitleContent>
             <h3>Nome</h3>
@@ -94,13 +94,13 @@ const FoodComponent = () => {
             ducimus dolorum, voluptas inventore nobis dolorem. Exercitationem
             nulla est quod ea ipsam.
           </p>
-          <LinkButton>saiba mais</LinkButton>
+          <LinkButton href={'/products/:id'}>saiba mais</LinkButton>
         </InfosContainer>
       </FoodContainer>
 
       <FoodContainer>
         <img src={image} alt="" />
-        <TagContent>Italiana</TagContent>
+        <TagContent>italiana</TagContent>
         <InfosContainer>
           <TitleContent>
             <h3>Nome</h3>
@@ -115,13 +115,13 @@ const FoodComponent = () => {
             ducimus dolorum, voluptas inventore nobis dolorem. Exercitationem
             nulla est quod ea ipsam.
           </p>
-          <LinkButton>saiba mais</LinkButton>
+          <LinkButton href={'/products/:id'}>saiba mais</LinkButton>
         </InfosContainer>
       </FoodContainer>
 
       <FoodContainer>
         <img src={image} alt="" />
-        <TagContent>Italiana</TagContent>
+        <TagContent>italiana</TagContent>
         <InfosContainer>
           <TitleContent>
             <h3>Nome</h3>
@@ -136,7 +136,7 @@ const FoodComponent = () => {
             ducimus dolorum, voluptas inventore nobis dolorem. Exercitationem
             nulla est quod ea ipsam.
           </p>
-          <LinkButton>saiba mais</LinkButton>
+          <LinkButton href={'/products/:id'}>saiba mais</LinkButton>
         </InfosContainer>
       </FoodContainer>
     </>
