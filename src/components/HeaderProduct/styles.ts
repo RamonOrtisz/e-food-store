@@ -4,14 +4,15 @@ import { colors } from '../../styles'
 
 export const Container = styled.div`
   background-image: url(${banner});
-  padding: 35px 0 60px;
+  padding-top: 35px;
+  padding-bottom: 60px;
   color: ${colors.orange};
 `
 export const Content = styled.div`
   display: flex;
   font-size: 18px;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 
   a {
     font-size: 18px;

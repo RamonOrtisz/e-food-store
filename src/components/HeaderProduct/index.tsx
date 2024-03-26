@@ -5,7 +5,7 @@ import logo from '../../assets/image/logo.png'
 const HeaderProduct = () => {
   return (
     <Container>
-      <Content>
+      <Content className="container">
         <TitleFood>Restaurantes</TitleFood>
         <Logo href="/">
           <img src={logo} alt="" />
