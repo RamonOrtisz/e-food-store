@@ -61,7 +61,7 @@ export const Modal = styled.div`
   top: 0;
   left: 0;
   z-index: 1;
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: center;
 
