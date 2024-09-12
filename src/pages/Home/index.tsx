@@ -1,6 +1,6 @@
 import Footer from '../../components/FooterComponent'
 import RestaurantList from '../../components/RestaurantList'
-import HeaderHome from '../../components/HeaderHome'
+import HeaderHome from '../../components/Header'
 import { useGetRestaurantsQuery } from '../../services/api'
 
 export type Cardapio = {
