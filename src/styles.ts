@@ -1,31 +1,29 @@
-import { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 
-export const colors = {
-  matte: '#FFF8F2',
-  white: '#fff',
-  orange: '#E66767',
-  lightOrange: '#FFEBD9',
-  textColor: '#FFEBD9',
-  black: '#000'
+export const cores = {
+  fontColor: '#E66767',
+  bgColor: '#FFF8F2',
+  branco: '#fff',
+  bgFooter: '#FFEBD9',
+  inputTxtColor: '#4B4B4B'
 }
 
-export const GlobalCss = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
   * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Roboto, sans-serif;
-    text-decoration: none;
-    list-style: none;
-  }
+      margin: 0;
+      padding:0;
+      box-sizing: border-box;
+      font-family: Roboto, sans-serif;
+    }
 
-  body {
-    background-color: ${colors.matte};
-  }
+    body {
+      background-color: ${cores.bgColor};
+      color: ${cores.fontColor};
+    }
+`
+export default GlobalStyle
 
-  .container {
-    max-width: 1024px;
-    width: 100%;
-    margin: 0 auto;
-  }
+export const Container = styled.div`
+  width: 100%;
+  margin: 0 auto;
 `

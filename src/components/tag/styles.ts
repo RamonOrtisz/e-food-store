@@ -1,11 +1,11 @@
-import { styled } from 'styled-components'
-import { colors } from '../../styles'
+import styled from 'styled-components'
+import { cores } from '../../styles'
 
-export const TagContainer = styled.div`
-  padding: 6px 4px;
-  background-color: ${colors.orange};
-  color: ${colors.white};
-  font-weight: bold;
-  font-size: 12px;
+export const TagS = styled.div`
+  background-color: ${cores.fontColor};
+  color: ${cores.bgColor};
   display: inline-block;
+  padding: 6px 4px;
+  font-weight: 700;
+  margin-left: 8px;
 `

@@ -1,34 +1,33 @@
-import styled from 'styled-components'
-import { colors } from '../../styles'
+import { styled } from 'styled-components'
+import { cores } from '../../styles'
 
-export const Container = styled.div`
-  margin-top: 120px;
-  height: 298px;
-  background: ${colors.lightOrange};
-
-  p {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
-    font-size: 10px;
-    color: ${colors.orange};
-  }
-`
-export const LogoLink = styled.a`
-  display: flex;
-  justify-content: center;
+export const FooterStyle = styled.footer`
   padding-top: 40px;
-  padding-bottom: 30px;
-`
-export const ListLink = styled.ul`
+  padding-bottom: 40px;
+  background-color: ${cores.bgFooter};
+  height: 300px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 8px;
-  padding-bottom: 80px;
+  text-align: center;
+`
 
-  a {
-    margin-right: 8px;
-  }
+export const Logo = styled.img`
+  width: 125px;
+`
+
+export const List = styled.ul`
+  margin-top: 32px;
+  margin-bottom: 80px;
+  display: flex;
+  list-style: none;
+`
+
+export const ListItem = styled.li`
+  margin-right: 8px;
+`
+
+export const Copyrights = styled.p`
+  max-width: 480px;
+  font-size: 10px;
 `
